@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <header class="content-container">
+    <img src="./assets/img/img_logo.png" alt="img_logo">
+    <nav>
+      <a href="#h_about_me">Про мене</a>
+      <a href="#h_portfolio">Портфоліо</a>
+      <a href="#h_prices">Ціни</a>
+      <a href="#h_signUp">Записатися</a>
+    </nav>
+    <p>+380 (96) 119 54 04</p>
+  </header>
+  <main>
+    <section class="intro_section">
+      <div class="content_info">
+        <h1>Юлія Тюлькіна</h1> <br>
+        <p class="job">фотограф / відеооператор</p><br><br>
+        <button>Записатися на фотосесію</button>
+      </div>
+      <img src="./assets/img/img_intro.png" alt="img_intro">
+    </section>
+    <section class="about_me_section">
+      <h2 id="h_about_me">Про мене</h2>
+      <div class="content_about_me">
+        <div class="about_me_left">
+          <img src="./assets/img/img_about_me_left.png" alt="img_about_me_left"class="img_left">
+          <p>Юлія Тюлькіна</p>
+        </div>
+        <div class="about_me_right">
+          <h3>Привіт! Мене звати Юля, я фотограф із Вінниці</h3><br>
+          <p>Займаюся фотографією понад 2 роки. Люблю живі, природні, теплі та емоційні кадри. Вмію працювати з такими інструментами як Photoshop, Lightroom.<br><br>
+          Фотографія для мене - це спосіб показати прекрасне у простоті, тобто відкрити завісу витонченого та ненав'язливого. Відеозйомка є чимось особливо цінним, адже можна сфотографувати момент назавжди і при цьому залишити відбиток в історії.</p><br><br>
+          <div class="img_container"></div>
+          <img src="./assets/img/img_about_me_right.png" alt="img_about_me_right" class="img_right">
+      </div>
+      </div>
+    </section>
+    <section class="portfolio_section">
+      <div class="content_container">
+          <h2 id="h_portfolio">Портфоліо</h2>
+          <div class="photos_container">
+              <div class="photos_container_item">
+                  <img src="./assets/img/img_portfolio1.png" alt="photo1">
+                  <h3>Теплі фото вдома</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                  <button>Всі фото</button>
+              </div>
+              <div class="photos_container_item">
+                  <img src="./assets/img/img_portfolio2.png" alt="photo2">
+                  <h3>Ранкова відеозйомка</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis, natoque amet at hendrerit consectetur rhoncus. </p>
+                  <button>Всі фото</button>
+              </div>
+              <div class="photos_container_item">
+                  <img src="./assets/img/img_portfolio3.png" alt="photo3">
+                  <h3>Фотосесія з квітами</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sagittis, natoque amet.</p>
+                  <button>Всі фото</button>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="prices_section">
+    <h2 id="h_prices">Ціни</h2>
+    <div class="prices_container">
+      <div class="left_side_container">
+        <div class="left_inside">
+            <img src="./assets/img/img_prices1png.png" alt="img_prices1" class="img_left_side">
+            <h3>Фотосесія</h3>
+            <div>
+                <div class="line1">
+                  <p>Тривалість</p> <span>1 година</span>
+                </div>
+                <div class="line2">
+                  <p>Час обробки фото</p> <span>5 днів</span>
+                </div>
+                <div class="line3">
+                  <p>Кількість фото</p> <span>20 штук</span>
+                </div>
+            </div>
+          <div class="button_left_container">
+            <p class="price1">200 грн</p>
+            <button>Замовити зараз</button>
+          </div>
+        </div>
+      </div>
+      <div class="right_side_container">
+        <div class="right_inside">
+          <img src="./assets/img/img_prices2.png" alt="img_prices2" class="img_right_side">
+          <h3>Відеозйомка</h3>
+          <div>
+            <div class="line1_">
+              <p>Тривалість</p> <span>1 година</span>
+            </div>
+            <div class="line2_">
+              <p>Час обробки</p> <span>5 днів</span>
+            </div>
+            <div class="line3_">
+              <p>Кількість фото</p> <span>20 штук</span>
+            </div>
+          </div>
+          <div class="button_right_container">
+            <p class="price">300 грн</p>
+            <button>Замовити зараз</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="signUp_section">
+    <h2 id="h_signUp">Записатися до Юлі</h2>
+    <div class="signUp_container">
+      <div class="left_side_pics">
+        <img src="./assets/img/img_signUp_section_left.png" alt="img_signUp_section_left" class="img_signUp_section_left">
+        <img src="./assets/img/img_signUp_section_right.png" alt="img_signUp_section_right" class="img_signUp_section_right">
+      </div>
+      <div class="right_side_inputs">
+        <form action="/submit" method="POST">
+          <input type="text" id="input1" name="name" placeholder="Ім'я ..." class="input_name"><br><br>
+          <input type="text" id="input2" name="email" placeholder="E-mail ..." class="input_email"><br><br>
+          <textarea id="input3" name="message" placeholder="Повідомлення ..." class="textarea_message"></textarea>
+        </form>
+        <button class="button_send">Відправити</button>
+      </div>
+    </div>
+  </section>
+  </main>
+  <footer>
+    <div class="footer_container">
+    <img src="./assets/img/img_logo.png" alt="img_logo">
+    <nav>
+      <a href="https://www.instagram.com/" target="_blank">
+        <img src="./assets/img/img_footer_insta.png" alt="img_footer_insta" class="footer_insta">
+        <img src="./assets/img/footer_insta_part.png" alt="img_footer_insta_part" class="footer_insta_part">
+      </a>
+      <a href="https://www.facebook.com/" target="_blank">
+        <img src="./assets/img/img_footer_facebook.png" alt="img_footer_facebook" class="facebook">
+      </a>
+      <a href="https://www.google.com/intl/uk/gmail/about/" target="_blank">
+        <img src="./assets/img/img_mail_externalpng.png" alt="img_mail_external" class="mail_external">
+        <img src="./assets/img/img_footer_mail.png" alt="img_footer_mail" class="mail">
+      </a>
+    </nav>
+    <p>+380 (96) 119 54 04</p>
+    </div>
+  </footer>
+</body>
+</html>

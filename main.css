@@ -1,0 +1,483 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3, p {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Montserrat-Medium;
+  src: url('./assets/fonts/Montserrat/static/Montserrat-Medium.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('./assets/fonts/Montserrat/static/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('./assets/fonts/Montserrat/static/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-SemiBold;
+  src: url('./assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf');
+}
+
+.content-container {
+  max-width: 1170px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header a {
+  margin-right: 30px;
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  color: rgba(16, 16, 16, 1);
+  text-decoration: none;
+}
+
+header p {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  color: rgba(165, 36, 36, 1);
+}
+
+/* Main */
+/* intro section */
+main {
+  max-width: 1170px;
+  margin: auto;
+}
+
+main .intro_section {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .content_info {
+  align-self: center;
+}
+
+main .intro_section .content_info h1 {
+  font-family: Montserrat-Bold;
+  font-size: 72px;
+  color: rgba(35, 35, 35, 1);
+}
+
+main .intro_section .content_info .job {
+  font-family: Montserrat-SemiBold;
+  font-size: 22px;
+  color: rgba(35, 35, 35, 1);
+}
+
+main .intro_section .content_info button {
+  font-family: Montserrat-Medium;
+  font-size: 18px;
+  color: rgba(165, 36, 36, 1);
+  background-color: white;
+  border-color: rgba(165, 36, 36, 1);
+  padding: 10px 40px;
+} 
+
+/* About Me Section */
+
+main .about_me_section .content_about_me {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .about_me_section h2 {
+  font-family: Montserrat-Bold;
+  font-size: 64px;
+  color: rgba(35, 35, 35, 1);
+  margin-top: 100px;
+}
+
+/*About Me Left */
+
+main .about_me_section .about_me_left {
+    width: 278px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.1);
+}
+
+main .about_me_section .content_about_me .img_left {
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+
+main .about_me_section .about_me_left p {
+  font-family: Montserrat-SemiBold;
+  font-size: 22px;
+  color: rgba(165, 36, 36, 1);
+} 
+
+/* About Me Right */
+
+main .about_me_section .content_about_me .about_me_right {
+  margin-left: 100px;
+}
+
+main .about_me_section .content_about_me .about_me_right h3 {
+  font-family: Montserrat-SemiBold;
+  font-size: 22px;
+  color: rgba(165, 36, 36, 1);
+  text-align: center;
+}
+
+main .about_me_section .content_about_me .about_me_right p {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  color: rgba(35, 35, 35, 1);
+  text-align: justify;
+}
+
+main .about_me_section .content_about_me .about_me_right .img_container {
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 5px;
+  position: relative;
+  width: 567px;
+  padding-right: 73px;
+  margin-left: 100px;
+  height: 330px;
+  position: absolute;
+  box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.1);
+}
+
+main .about_me_section .content_about_me .about_me_right .img_right {
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+/* Portfolio Section */
+
+main .content_container .photos_container {
+  display: flex;
+}
+
+main .portfolio_section .content_container h2 {
+  font-family: Montserrat-Bold;
+  font-size: 64px;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+main .portfolio_section .content_container h3 {
+  font-family: Montserrat-SemiBold;
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main .portfolio_section .content_container p {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+}
+
+main .content_container .photos_container_item button {
+  font-family: Montserrat-Medium;
+  font-size: 18px;
+  color: rgba(165, 36, 36, 1);
+  background-color: white;
+  border-color: rgba(165, 36, 36, 1);
+  padding: 10px 40px;
+  margin-top: 15px;
+}
+
+main .content_container .photos_container_item {
+  margin-right: 20px;
+}
+
+/* Prices Section */
+
+main .prices_section h2 {
+  font-family: Montserrat-Bold;
+  font-size: 64px;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+main .prices_section .prices_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .prices_section .prices_container h3 {
+  font-family: Montserrat-SemiBold;
+  font-size: 24px;
+  color: rgba(165, 36, 36, 1);
+  padding-left: 110px;
+  margin-bottom: 10px;
+}
+main .prices_section .prices_container p {
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+main .prices_section .prices_container span {
+  font-family: Montserrat-SemiBold;
+  font-size: 18px;
+  padding-left: 20px;
+  align-items: end;
+}
+
+main .prices_section .prices_container .left_side_container {
+  margin-left: 120px;
+  padding-right: 120px;
+}
+
+main .prices_section .prices_container .left_side_container .left_inside {
+  box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.1);
+  padding-bottom: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: -70px;
+  padding-top: 10px;
+}
+
+main .prices_section .prices_container .left_side_container .left_inside span {
+  padding-right: 20px;
+}
+
+main .prices_section .prices_container .right_side_container .right_inside span {
+  padding-right: 20px;
+}
+
+main .prices_section .prices_container .left_side_container .left_inside .line1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .prices_section .prices_container .left_side_container .left_inside .line2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .prices_section .prices_container .left_side_container .left_inside .line3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .prices_section .prices_container .right_side_container .right_inside .line1_ {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .prices_section .prices_container .right_side_container .right_inside .line2_ {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .prices_section .prices_container .right_side_container .right_inside .line3_ {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .prices_section .prices_container .right_side_container .right_inside {
+  box-shadow: 10px 10px 20px 1px rgba(0, 0, 0, 0.1);
+  padding-bottom: 3px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+}
+
+main .prices_section .prices_container .left_side_container .left_inside .button_left_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+main .prices_section .prices_container .left_side_container .left_inside .button_left_container .price1 {
+  display: flex;
+  align-items: center;
+  font-family: Montserrat-SemiBold;
+  font-size: 28px;
+  color: rgba(165, 36, 36, 1);
+}
+
+main .prices_section .prices_container .right_side_container .right_inside .button_right_container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+main .prices_section .prices_container .right_side_container .right_inside .button_right_container .price {
+  display: flex;
+  align-items: center;
+  font-family: Montserrat-SemiBold;
+  font-size: 28px;
+  color: rgba(165, 36, 36, 1);
+}
+
+main .prices_section .prices_container button {
+  font-family: Montserrat-Medium;
+  font-size: 18px;
+  color: rgba(165, 36, 36, 1);
+  background-color: white;
+  border-color: rgba(165, 36, 36, 1);
+  padding: 10px 25px;
+  margin-top: 15px;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+}
+
+main .prices_section .prices_container .right_side_container {
+  margin-right: 120px;
+  padding-left: 120px;
+  width: 450px;
+}
+
+main .prices_section .prices_container .left_side_container .img_left_side {
+  align-items: center;
+  padding: 20px;
+}
+
+main .prices_section .prices_container .right_side_container .img_right_side {
+  align-items: center;
+  padding: 20px;
+}
+
+/* Sign Up Section */
+
+main .signUp_section h2 {
+  font-family: Montserrat-Bold;
+  font-size: 64px;
+  margin-top: 120px;
+  margin-bottom: 30px;
+}
+
+main .signUp_section .signUp_container {
+  display: flex;
+  justify-content: space-between;
+}
+
+main .signUp_section .signUp_container .left_side_pics .img_signUp_section_left {
+  position: absolute;
+  margin-top: 50px;
+}
+
+main .signUp_section .signUp_container .left_side_pics .img_signUp_section_right {
+  position: relative;
+  margin-left: 250px;
+}
+
+main .signUp_section .signUp_container .right_side_inputs .input_name {
+  width: 476px; 
+  height: 45px;
+  border-color: rgba(35, 35, 35, 0.35);
+  color: rgba(35, 35, 35, 0.35);
+  margin-bottom: 20px;
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+main .signUp_section .signUp_container .right_side_inputs .input_email {
+  width: 476px; 
+  height: 45px;
+  border-color: rgba(35, 35, 35, 0.35);
+  color: rgba(35, 35, 35, 0.35);
+  margin-bottom: 20px;
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+main .signUp_section .signUp_container .right_side_inputs .textarea_message {
+  width: 476px; 
+  height: 221px;
+  border-color: rgba(35, 35, 35, 0.35);
+  color: rgba(35, 35, 35, 0.35);
+  margin-bottom: 50px;
+  font-family: Montserrat-Regular;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-top: 10px;
+  resize: none;
+}
+
+main .signUp_section .signUp_container .right_side_inputs .button_send {
+font-family: Montserrat-Medium;
+font-size: 18px;
+color: rgba(165, 36, 36, 1);
+background-color: white;
+border-color: rgba(165, 36, 36, 1);
+padding: 10px 40px;
+width: 490px;
+}
+
+/* Footer */
+
+footer {
+  border-top: solid 0.1px;
+  margin-top: 70px;
+}
+
+footer .footer_container {
+  max-width: 1170px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer .footer_container nav {
+  margin-left: 100px;
+}
+
+footer .footer_container nav a {
+  margin-right: 50px;
+  text-decoration: none;
+}
+
+footer .footer_container nav .footer_insta {
+  position: absolute;
+}
+
+footer .footer_container nav .footer_insta_part {
+  position: relative;
+  margin-left: 7.2px;
+}
+
+footer .footer_container nav .mail_external {
+  position: absolute;
+}
+
+footer .footer_container nav .mail {
+  position: relative;
+  margin-bottom: 5px;
+  margin-left: 1.3px;
+}
+
+footer p {
+  font-family: Montserrat-SemiBold;
+  font-size: 22px;
+  color: rgba(165, 36, 36, 1);
+}
