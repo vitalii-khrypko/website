@@ -15,3 +15,9 @@ This project is a static website layout built using HTML and CSS. It showcases a
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/vitalii-khrypko/website.git
+2. Open the index.html file in your browser.
+
+No additional setup or dependencies are required. Simply open the project in any modern browser to view it.
+
+## Contributors
+**Vitalii Khrypko** - Project author.
